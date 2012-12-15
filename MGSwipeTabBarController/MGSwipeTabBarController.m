@@ -93,10 +93,11 @@
 }
 
 #pragma mark - UIScrollViewDelegate methods
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     _selectedIndex = floor(scrollView.contentOffset.x / scrollView.bounds.size.width + 0.5);
     self.tabBar.selectedIndex = _selectedIndex;
 }
+
 
 #pragma mark - MGSwipeTabBarDelegate methods
 - (void) swipeTabBarDidSelectIndex:(NSUInteger)selectedIndex {

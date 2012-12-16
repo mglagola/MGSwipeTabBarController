@@ -14,6 +14,7 @@
 
 ### Create a MGSwipeTabBarController
 There is a couple ways in setting up your SwipeTabBarController
+
 Here is the way without a tabBar:
 ```objc
 NSArray *viewControllers = . . . //your view controllers

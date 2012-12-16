@@ -23,7 +23,7 @@ MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWi
 Here is the way with a tabBar:
 ```objc
 NSArray *viewControllers = . . . //your view controllers
-TabBar *customTabBar = . . . //your tab bar (optional)
+TabBar *customTabBar = . . . //your tab bar
 MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWithViewControllers:viewControllers tabBar:tabBar]; 
 ```
 Here is the way with a tabBar and a custom tabBar position
@@ -31,7 +31,7 @@ Here is the way with a tabBar and a custom tabBar position
 
 ```objc
 NSArray *viewControllers = . . . //your view controllers
-TabBar *customTabBar = . . . //your tab bar (optional)
+TabBar *customTabBar = . . . //your tab bar
 MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWithViewControllers:viewControllers tabBar:tabBar atPosition:MGTabBarPositionBottom]; 
 ```
 

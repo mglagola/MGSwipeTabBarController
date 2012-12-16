@@ -3,6 +3,6 @@ Documentation coming soon…
 Download zip and test the demo in the meantime!
 
 ## Example Screenshots
-![ScreenShot 1](http://www.flickr.com/photos/91152154@N02/8278966578/)
-![ScreenShot 2](http://www.flickr.com/photos/91152154@N02/8277908927/)
-![ScreenShot 3](http://www.flickr.com/photos/91152154@N02/8277908843/)
+![ScreenShot 1](http://farm9.staticflickr.com/8479/8278966578_c8532c456b.jpg)
+![ScreenShot 2](http://farm9.staticflickr.com/8502/8277908927_bdba07fedf.jpg)
+![ScreenShot 3](http://farm9.staticflickr.com/8479/8278966578_c8532c456b.jpg)

@@ -38,7 +38,7 @@ MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWi
 #### Build your own custom TabBar
 ##### NOTE: TabBars are optional!
 - Subclass MGSwipeTabBar
-- remember to call the delegate method "[self.delegate swipeTabBarDidSelectIndex:YOUR_SELECTED_INDEX]" when button was selected in tabBar
+- remember to call the delegate method "[self.delegate swipeTabBarDidSelectIndex:YOUR_SELECTED_INDEX]" when a button was selected in tabBar
 - DO NOT call "[self.delegate swipeTabBarDidSelectIndex:YOUR_SELECTED_INDEX]" in setSelectedIndex:
 
 Check out the Example Demo for a guide/example in subclassing MGSwipeTabBar (very simple, two method implementation)

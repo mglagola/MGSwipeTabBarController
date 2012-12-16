@@ -6,7 +6,7 @@ Download zip and test the demo in the meantime!
 ![ScreenShot 1](http://farm9.staticflickr.com/8479/8278966578_c8532c456b.jpg)
 
 ![ScreenShot 2](http://farm9.staticflickr.com/8502/8277908927_bdba07fedf.jpg)
-![ScreenShot 3](http://farm9.staticflickr.com/8479/8278966578_c8532c456b.jpg)
+![ScreenShot 3](http://farm9.staticflickr.com/8484/8277908843_092302bb8a.jpg)
 
 ## Setup
 - Add the "MGSwipeTabBarController" Folder to your project
@@ -18,20 +18,20 @@ Download zip and test the demo in the meantime!
 There is a couple ways in setting up your SwipeTabBarController
 Here is the way without a tabBar:
 ```objc
-NSArray *viewControllers = … //your view controllers
+NSArray *viewControllers = . . . //your view controllers
 MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWithViewControllers:viewControllers]; 
 ```
 Here is the way with a tabBar:
 ```objc
-NSArray *viewControllers = … //your view controllers
-TabBar *customTabBar = … //your tab bar (optional)
+NSArray *viewControllers = . . . //your view controllers
+TabBar *customTabBar = . . . //your tab bar (optional)
 MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWithViewControllers:viewControllers tabBar:tabBar]; 
 ```
 Here is the way with a tabBar and a custom tabBar position
 - Two options: MGTabBarPositionTop (Default) & MGTabBarPositionBottom
 ```objc
-NSArray *viewControllers = … //your view controllers
-TabBar *customTabBar = … //your tab bar (optional)
+NSArray *viewControllers = . . . //your view controllers
+TabBar *customTabBar = . . . //your tab bar (optional)
 MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWithViewControllers:viewControllers tabBar:tabBar atPosition:MGTabBarPositionBottom]; 
 ```
 

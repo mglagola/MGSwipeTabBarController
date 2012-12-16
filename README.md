@@ -1,18 +1,16 @@
 # MGSwipeTabBarController
-Documentation coming soon…
-Download zip and test the demo in the meantime!
 
 ## Example Screenshots
 ![ScreenShot 1](http://farm9.staticflickr.com/8479/8278966578_c8532c456b.jpg)
 
-![ScreenShot 2](http://farm9.staticflickr.com/8502/8277908927_bdba07fedf.jpg)
+![ScreenShot 2](http://farm9.staticflickr.com/8502/8277908927_bdba07fedf.jpg) 
 ![ScreenShot 3](http://farm9.staticflickr.com/8484/8277908843_092302bb8a.jpg)
 
 ## Setup
 - Add the "MGSwipeTabBarController" Folder to your project
 - import "MGSwipeTabBarControllerHeaders.h" in your project's "…-Prefix.pch" file
 
-## Example Useage
+## Example Usage
 
 ### Create a MGSwipeTabBarController
 There is a couple ways in setting up your SwipeTabBarController
@@ -29,6 +27,7 @@ MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWi
 ```
 Here is the way with a tabBar and a custom tabBar position
 - Two options: MGTabBarPositionTop (Default) & MGTabBarPositionBottom
+
 ```objc
 NSArray *viewControllers = . . . //your view controllers
 TabBar *customTabBar = . . . //your tab bar (optional)

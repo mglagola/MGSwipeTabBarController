@@ -36,6 +36,8 @@
         _scrollView.pagingEnabled = YES;
         _scrollView.contentSize = CGSizeMake(self.viewControllers.count * scrollframe.size.width, scrollframe.size.height);
         _scrollView.showsHorizontalScrollIndicator = NO;
+        _scrollView.autoresizesSubviews = NO;
+        _scrollView.autoresizingMask = UIViewAutoresizingNone;
     }
     return _scrollView;
 }
@@ -84,11 +86,19 @@
     
     for (UIViewController *controller in self.viewControllers) {
         controller.swipeTabBarController = self;
+        [self.scrollView addSubview:controller.view];
+        [self addChildViewController:controller];
+    }
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    
+    for (UIViewController *controller in self.viewControllers) {
         NSUInteger index = [self.viewControllers indexOfObject:controller];
         CGRect frame = controller.view.frame;
         frame.origin.x = self.view.frame.size.width * index;
         controller.view.frame = frame;
-        [self.scrollView addSubview:controller.view];
     }
 }
 

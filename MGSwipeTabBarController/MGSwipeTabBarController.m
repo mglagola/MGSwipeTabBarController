@@ -5,6 +5,8 @@
 //  Created by Mark Glagola on 12/15/12.
 //  Copyright (c) 2012 Mark Glagola. All rights reserved.
 //
+//  Edited by Cihat Gündüz (Dschee) on 12.07.14.
+//
 
 #import "MGSwipeTabBarController.h"
 #import "UIViewController+MGSwipeTabBarController.h"
@@ -17,7 +19,7 @@
 @synthesize scrollView = _scrollView, viewControllers = _viewControllers, selectedIndex = _selectedIndex, tabBar = _tabBar;
 
 - (UIScrollView*) scrollView {
-    if (!_scrollView) {        
+    if (!_scrollView) {
         
         CGRect scrollframe = self.view.frame;
         if (self.tabBar) {
@@ -25,6 +27,17 @@
             scrollframe.size.height -= tabBarFrame.size.height;
             if (tabBarPosition == MGTabBarPositionTop) {
                 scrollframe.origin.y = tabBarFrame.size.height;
+                
+                if (self.navigationController) {
+                    scrollframe.size.height -= 44;
+                    scrollframe.origin.y += 44;
+                }
+                
+                if ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 7.0) {
+                    scrollframe.size.height -= 20;
+                    scrollframe.origin.y += 20;
+                }
+                
             }else {
                 tabBarFrame.origin.y += scrollframe.size.height;
                 _tabBar.frame = tabBarFrame;
@@ -38,11 +51,21 @@
         _scrollView.showsHorizontalScrollIndicator = NO;
         _scrollView.autoresizesSubviews = NO;
         _scrollView.autoresizingMask = UIViewAutoresizingNone;
+        
+        CGPoint offset = CGPointMake(0, 0);
+        if (self.navigationController) {
+            offset.y += 44;
+        }
+        
+        if ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 7.0) {
+            offset.y += 20;
+        }
+        _scrollView.contentOffset = offset;
     }
     return _scrollView;
 }
 
-- (void) setSelectedIndex:(NSUInteger)selectedIndex
+- (void)setSelectedIndex:(NSUInteger)selectedIndex
 {
     if (selectedIndex >= self.viewControllers.count)
         return;
@@ -55,15 +78,15 @@
     _selectedIndex = selectedIndex;
 }
 
-- (id) initWithViewControllers:(NSArray*)viewControllers {
+- (id)initWithViewControllers:(NSArray*)viewControllers {
     return [self initWithViewControllers:viewControllers tabBar:nil];
 }
 
-- (id) initWithViewControllers:(NSArray*)viewControllers tabBar:(MGSwipeTabBar*)tabBar {
+- (id)initWithViewControllers:(NSArray*)viewControllers tabBar:(MGSwipeTabBar*)tabBar {
     return [self initWithViewControllers:viewControllers tabBar:tabBar atPosition:MGTabBarPositionTop];
 }
 
-- (id) initWithViewControllers:(NSArray*)viewControllers tabBar:(MGSwipeTabBar*)tabBar atPosition:(MGTabBarPosition)position
+- (id)initWithViewControllers:(NSArray*)viewControllers tabBar:(MGSwipeTabBar*)tabBar atPosition:(MGTabBarPosition)position
 {
     if (self = [super init]) {
         _viewControllers = viewControllers;
@@ -74,9 +97,11 @@
     return self;
 }
 
-- (void) viewDidLoad
+- (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     
     [self.view addSubview:self.scrollView];
     
@@ -110,7 +135,7 @@
 
 
 #pragma mark - MGSwipeTabBarDelegate methods
-- (void) swipeTabBarDidSelectIndex:(NSUInteger)selectedIndex {
+- (void)swipeTabBarDidSelectIndex:(NSUInteger)selectedIndex {
     self.selectedIndex = selectedIndex;
 }
 @end

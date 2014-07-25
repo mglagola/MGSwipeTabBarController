@@ -1,5 +1,5 @@
 # MGSwipeTabBarController
-**UPDATE:** There is an updated version in the works to support auto layout, TableViews/TableViewControllers, CollectionViews/CollectionViewControllers, and more. Check back soon.
+**UPDATE:** There is an updated version in the works to support auto layout with TableViews/TableViewControllers, CollectionViews/CollectionViewControllers, and more. Check back soon.
 
 
 ## Example Screenshots

@@ -1,18 +1,18 @@
 # MGSwipeTabBarController
 
 ## Example Screenshots
-![ScreenShot 1]()
-![ScreenShot 2]() 
+![ScreenShot 1](https://raw.githubusercontent.com/mglagola/MGSwipeTabBarController/2.0/Screenshots/screen1.png)
+![ScreenShot 2](https://raw.githubusercontent.com/mglagola/MGSwipeTabBarController/2.0/Screenshots/screen2.png) 
 
 ## Setup
 CocoaPods is recommended.
 #### CocoaPods 
 - Add `pod 'MGSwipeTabBarController', '~>X.X'` in your `Podfile`.  Fill in `~>X.X` with the latest pod spec version or `:head` if you live dangerously.
-- import via `#import <MGSwipeTabBarController/MGSwipeTabBarController.h>`
+- `#import <MGSwipeTabBarController/MGSwipeTabBarController.h>`
 
 #### Old Style
-- Drag and drop the MGSwipeTabBarController/MGSwipeTabBarController Folder into your iOS project
-- import via `#import "MGSwipeTabBarController.h"`
+- Drag and drop the `MGSwipeTabBarController/MGSwipeTabBarController` Folder into your iOS project
+- `#import "MGSwipeTabBarController.h"`
 
 
 ## Example Usage

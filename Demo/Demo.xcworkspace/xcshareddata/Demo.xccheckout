@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37F0493A-ED7A-479F-B201-0D022A90D66C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4E48884FADEDF55DCBEF2984D247ACC822D57F18</key>
+		<string>https://github.com/mglagola/MGSwipeTabBarController.git</string>
+		<key>91FD0960550C215A0248472F26DBB164D504D0BB</key>
+		<string>https://github.com/mglagola/SwipeController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo/Demo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4E48884FADEDF55DCBEF2984D247ACC822D57F18</key>
+		<string>../..</string>
+		<key>91FD0960550C215A0248472F26DBB164D504D0BB</key>
+		<string>../../../swipe-controller</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mglagola/MGSwipeTabBarController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4E48884FADEDF55DCBEF2984D247ACC822D57F18</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4E48884FADEDF55DCBEF2984D247ACC822D57F18</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MGSwipeTabBarController</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>91FD0960550C215A0248472F26DBB164D504D0BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swipe-controller</string>
+		</dict>
+	</array>
+</dict>
+</plist>

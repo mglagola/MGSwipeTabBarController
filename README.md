@@ -1,44 +1,36 @@
 # MGSwipeTabBarController
 
 ## Example Screenshots
-![ScreenShot 1](http://farm9.staticflickr.com/8479/8278966578_c8532c456b.jpg)
-
-![ScreenShot 2](http://farm9.staticflickr.com/8502/8277908927_bdba07fedf.jpg) 
-![ScreenShot 3](http://farm9.staticflickr.com/8484/8277908843_092302bb8a.jpg)
+![ScreenShot 1]()
+![ScreenShot 2]() 
 
 ## Setup
-- Add the "MGSwipeTabBarController" Folder to your project
-- import "MGSwipeTabBarControllerHeaders.h" in your project's "…-Prefix.pch" file
+CocoaPods is recommended.
+#### CocoaPods 
+- Add `pod 'MGSwipeTabBarController', '~>X.X'` in your `Podfile`.  Fill in `~>X.X` with the latest pod spec version or `:head` if you live dangerously.
+- import via `#import <MGSwipeTabBarController/MGSwipeTabBarController.h>`
+
+#### Old Style
+- Drag and drop the MGSwipeTabBarController/MGSwipeTabBarController Folder into your iOS project
+- import via `#import "MGSwipeTabBarController.h"`
+
 
 ## Example Usage
 
 ### Create a MGSwipeTabBarController
-There is a couple ways in setting up your SwipeTabBarController
-
-Here is the way without a tabBar:
+Option 1 - Init
 ```objc
 NSArray *viewControllers = . . . //your view controllers
-MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWithViewControllers:viewControllers]; 
+MGSwipeTabBarController *swipeController = [[MGSwipeTabBarController alloc] initWithViewControllers:viewControllers]; 
 ```
-Here is the way with a tabBar:
+
+Option 2 - Setter
 ```objc
 NSArray *viewControllers = . . . //your view controllers
-TabBar *customTabBar = . . . //your tab bar
-MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWithViewControllers:viewControllers tabBar:tabBar]; 
-```
-Here is the way with a tabBar and a custom tabBar position
-- Two options: MGTabBarPositionTop (Default) & MGTabBarPositionBottom
-
-```objc
-NSArray *viewControllers = . . . //your view controllers
-TabBar *customTabBar = . . . //your tab bar
-MGSwipeTabBarController *tabController = [[MGSwipeTabBarController alloc] initWithViewControllers:viewControllers tabBar:tabBar atPosition:MGTabBarPositionBottom]; 
+MGSwipeTabBarController *swipeController = . . . // initialized someway (i.e. storyboard, nib, etc).
+swipeController.viewControllers = viewControllers;
 ```
 
-#### Build your own custom TabBar
-##### NOTE: TabBars are optional!
-- Subclass MGSwipeTabBar
-- remember to call the delegate method "[self.delegate swipeTabBarDidSelectIndex:YOUR_SELECTED_INDEX]" when a button was selected in tabBar
-- DO NOT call "[self.delegate swipeTabBarDidSelectIndex:YOUR_SELECTED_INDEX]" in setSelectedIndex:
 
-Check out the Example Demo for a guide/example in subclassing MGSwipeTabBar (very simple, two method implementation)
+## Limitations
+There is a bug currently with transparent UI bars. The demo demonstrates this bug. 

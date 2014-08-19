@@ -42,5 +42,5 @@ swipeController.viewControllers = viewControllers;
 
 
 ## Limitations
-There is a bug currently with transparent UI bars. The demo demonstrates this bug.  I could not find a fix for this issue and when I would seem to fix it for iOS 7, it would not work on iOS 8 and vice versa.
+There is a bug currently with transparent UI bars. The demo demonstrates this bug.  When I would seem to fix this issue for iOS 7, it would not work on iOS 8 and vice versa.
 [The issue can be found here](https://github.com/mglagola/MGSwipeTabBarController/issues/8)

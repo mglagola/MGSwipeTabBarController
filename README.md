@@ -1,8 +1,7 @@
 # MGSwipeTabBarController
 
 ## Example Screenshots
-![ScreenShot 1](https://raw.githubusercontent.com/mglagola/MGSwipeTabBarController/2.0/Screenshots/screen1.png)
-![ScreenShot 2](https://raw.githubusercontent.com/mglagola/MGSwipeTabBarController/2.0/Screenshots/screen2.png) 
+![ScreenShot 1](https://raw.githubusercontent.com/mglagola/MGSwipeTabBarController/2.0/Screenshots/screen-combined.png)
 
 ## Setup
 CocoaPods is recommended.

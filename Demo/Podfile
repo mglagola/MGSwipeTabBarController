@@ -1,1 +1,3 @@
 platform :ios, '7.0'
+
+pod 'MGSwipeTabBarController', :podspec => 'https://raw.githubusercontent.com/mglagola/MGSwipeTabBarController/master/MGSwipeTabBarController.podspec'

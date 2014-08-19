@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Mark Glagola. All rights reserved.
 //
 
-#import "MGSwipeTabBarController.h"
+#import <MGSwipeTabBarController/MGSwipeTabBarController.h>
 
 @interface SwipeTabBarController : MGSwipeTabBarController <MGSwipeTabBarControllerDelegate>
 

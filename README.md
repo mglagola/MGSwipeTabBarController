@@ -1,10 +1,17 @@
 # MGSwipeTabBarController
-Check out the demo project!
-
-Download the `zip` file or `git clone https://github.com/mglagola/MGSwipeTabBarController.git` and then run the demo project.
 
 ## Example Screenshots
 ![ScreenShot 1](https://raw.githubusercontent.com/mglagola/MGSwipeTabBarController/2.0/Screenshots/screen-combined.png)
+
+## Demo
+Check out the demo project! Follow the steps below and make sure cocoapods is installed.
+```
+$ git clone https://github.com/mglagola/MGSwipeTabBarController.git
+$ cd MGSwipeTabBarController/Demo
+$ pod install
+$ open Demo.xcworkspace/
+```
+
 
 ## Setup
 CocoaPods is recommended.

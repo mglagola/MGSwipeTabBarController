@@ -12,13 +12,11 @@
 		4D434AD61981831F00876EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D434AD51981831F00876EDD /* AppDelegate.m */; };
 		4D434AE11981831F00876EDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D434AE01981831F00876EDD /* Images.xcassets */; };
 		4D434AED1981831F00876EDD /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D434AEC1981831F00876EDD /* DemoTests.m */; };
-		4D434AFD1981837700876EDD /* MGSwipeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D434AFB1981837700876EDD /* MGSwipeTabBarController.m */; };
 		4D434B00198183C500876EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D434AFE198183C500876EDD /* Main.storyboard */; };
 		4D434B0C1981844100876EDD /* UIViewController+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D434B061981844100876EDD /* UIViewController+Init.m */; };
 		4D434B0D1981844100876EDD /* SwipeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D434B091981844100876EDD /* SwipeTabBarController.m */; };
 		4D434B0E1981844100876EDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D434B0B1981844100876EDD /* ViewController.m */; };
 		4D434B11198186C300876EDD /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D434B10198186C300876EDD /* RootTableViewController.m */; };
-		4D4E2EA51982D83800DFA82D /* UIViewController+MGSwipeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E2EA41982D83800DFA82D /* UIViewController+MGSwipeTabBarController.m */; };
 		4D4E2EA91982DDD200DFA82D /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E2EA81982DDD200DFA82D /* CollectionViewController.m */; };
 		4D4E2EAC1982E96000DFA82D /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E2EAB1982E96000DFA82D /* CustomTableViewController.m */; };
 		4D4E2EB11982F74100DFA82D /* CustomCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E2EB01982F74100DFA82D /* CustomCollectionViewController.m */; };
@@ -46,8 +44,6 @@
 		4D434AE61981831F00876EDD /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D434AEB1981831F00876EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D434AEC1981831F00876EDD /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
-		4D434AFA1981837700876EDD /* MGSwipeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTabBarController.h; sourceTree = "<group>"; };
-		4D434AFB1981837700876EDD /* MGSwipeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTabBarController.m; sourceTree = "<group>"; };
 		4D434AFF198183C500876EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D434B051981844100876EDD /* UIViewController+Init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Init.h"; sourceTree = "<group>"; };
 		4D434B061981844100876EDD /* UIViewController+Init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Init.m"; sourceTree = "<group>"; };
@@ -57,8 +53,6 @@
 		4D434B0B1981844100876EDD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4D434B0F198186C300876EDD /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
 		4D434B10198186C300876EDD /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
-		4D4E2EA31982D83800DFA82D /* UIViewController+MGSwipeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MGSwipeTabBarController.h"; sourceTree = "<group>"; };
-		4D4E2EA41982D83800DFA82D /* UIViewController+MGSwipeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MGSwipeTabBarController.m"; sourceTree = "<group>"; };
 		4D4E2EA71982DDD200DFA82D /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		4D4E2EA81982DDD200DFA82D /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		4D4E2EAA1982E96000DFA82D /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
@@ -100,7 +94,6 @@
 		4D434AC41981831F00876EDD = {
 			isa = PBXGroup;
 			children = (
-				4D434AF71981837700876EDD /* MGSwipeTabBarController */,
 				4D434ACF1981831F00876EDD /* Demo */,
 				4D434AE91981831F00876EDD /* DemoTests */,
 				4D434ACE1981831F00876EDD /* Products */,
@@ -156,18 +149,6 @@
 				4D434AEB1981831F00876EDD /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4D434AF71981837700876EDD /* MGSwipeTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				4D434AFA1981837700876EDD /* MGSwipeTabBarController.h */,
-				4D434AFB1981837700876EDD /* MGSwipeTabBarController.m */,
-				4D4E2EA31982D83800DFA82D /* UIViewController+MGSwipeTabBarController.h */,
-				4D4E2EA41982D83800DFA82D /* UIViewController+MGSwipeTabBarController.m */,
-			);
-			name = MGSwipeTabBarController;
-			path = ../MGSwipeTabBarController;
 			sourceTree = "<group>";
 		};
 		4D434B041981844100876EDD /* Categories */ = {
@@ -352,11 +333,9 @@
 			files = (
 				4D434B0E1981844100876EDD /* ViewController.m in Sources */,
 				4D434AD61981831F00876EDD /* AppDelegate.m in Sources */,
-				4D4E2EA51982D83800DFA82D /* UIViewController+MGSwipeTabBarController.m in Sources */,
 				4D434B0C1981844100876EDD /* UIViewController+Init.m in Sources */,
 				4D434B0D1981844100876EDD /* SwipeTabBarController.m in Sources */,
 				4D9AB89F1981D97700634005 /* TableViewController.m in Sources */,
-				4D434AFD1981837700876EDD /* MGSwipeTabBarController.m in Sources */,
 				4D434AD31981831F00876EDD /* main.m in Sources */,
 				4D4E2EAC1982E96000DFA82D /* CustomTableViewController.m in Sources */,
 				4D4E2EA91982DDD200DFA82D /* CollectionViewController.m in Sources */,

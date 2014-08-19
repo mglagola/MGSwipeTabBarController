@@ -1,4 +1,7 @@
 # MGSwipeTabBarController
+Check out the demo project!
+
+Download the `zip` file or `git clone https://github.com/mglagola/MGSwipeTabBarController.git` and then run the demo project.
 
 ## Example Screenshots
 ![ScreenShot 1](https://raw.githubusercontent.com/mglagola/MGSwipeTabBarController/2.0/Screenshots/screen-combined.png)

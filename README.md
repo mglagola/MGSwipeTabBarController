@@ -4,7 +4,7 @@
 ![ScreenShot 1](https://raw.githubusercontent.com/mglagola/MGSwipeTabBarController/2.0/Screenshots/screen-combined.png)
 
 ## Demo
-Check out the demo project! Follow the steps below and make sure cocoapods is installed.
+Check out the demo project. Follow the steps below and make sure cocoapods is installed.
 ```
 $ git clone https://github.com/mglagola/MGSwipeTabBarController.git
 $ cd MGSwipeTabBarController/Demo

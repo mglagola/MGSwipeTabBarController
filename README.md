@@ -36,7 +36,7 @@ MGSwipeTabBarController *swipeController = [[MGSwipeTabBarController alloc] init
 Option 2 - Setter
 ```objc
 NSArray *viewControllers = . . . //your view controllers
-MGSwipeTabBarController *swipeController = . . . // initialized someway (i.e. storyboard, nib, etc).
+MGSwipeTabBarController *swipeController = . . . // initialized some way (i.e. storyboard, nib, etc).
 swipeController.viewControllers = viewControllers;
 ```
 

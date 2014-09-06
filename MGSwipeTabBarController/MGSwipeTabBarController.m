@@ -232,4 +232,10 @@ CGFloat const kBPDefaultSelectedIndexAnimationDuration = .35f;
     
 }
 
+// gesture recognizer should only begin when horizontally panning
+- (BOOL)gestureRecognizerShouldBegin:(UIPanGestureRecognizer *)panGestureRecognizer {
+    CGPoint velocity = [panGestureRecognizer velocityInView:panGestureRecognizer.view];
+    return fabs(velocity.x) > fabs(velocity.y);
+}
+
 @end
